@@ -14,7 +14,7 @@ $f(x) = \frac{1}{2}||V - WH||^2_2 + \lambda_w|W|_1 + \lambda_h |H|_1$
  
  输出model结构包括（W,H,loss）
 
- 表现待证
+ 应用表现待证
 
 ```
 library(Rcpp)
