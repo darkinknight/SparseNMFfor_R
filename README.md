@@ -4,7 +4,7 @@ $V = WH (W,H \in R_+)$
 
 $f(x) = \frac{1}{2}||V - WH||^2_2 + \lambda_w|W|_1 + \lambda_h |H|_1$
 
-方法基于ANSL + newton interior + fbs，主打一个适用稀疏数据
+方法基于*ANSL + newton interior + fbs*，主打一个适用稀疏数据
 
  Rcpp_m2NMF_fbs ： 为牛顿内点法的二维矩阵存储形式
 
