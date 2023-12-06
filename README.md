@@ -12,7 +12,7 @@ $f(x) = \frac{1}{2}||V - WH||^2_2 + \lambda_w|W|_1 + \lambda_h |H|_1$
  
  输入 data, k, lambda_w, lambda_h   (string method = "direct" , double tol = 1e-6, int maxiter = 10000,int thread = 5)
  
- 输出model结构包括（W,H,loss）
+ 输出model结构包括（W,H,iteration,loss）
 
  应用表现待证
 
