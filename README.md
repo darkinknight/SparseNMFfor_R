@@ -1,4 +1,4 @@
-# SparseNMFfor_R
+# SparseNMFfor_Rcpp
 
 $V = WH (W,H \in R_+)$
 
