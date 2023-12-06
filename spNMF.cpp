@@ -91,11 +91,11 @@ colvec innpot(mat A, colvec b, colvec x0, colvec y0, string method = "direct" , 
   }
   if(iter == maxiter){
     cout <<"exceed maximum iteration"<<endl;
-    cout << t1(0,0)<<","<<t2<<endl;
-    cout<<"x:"<<x0<<endl;
-    cout<<"y:"<<y0<<endl;
-    cout<<"A:"<<A<<endl;
-    cout<<"B:"<<b<<endl;
+    //cout << t1(0,0)<<","<<t2<<endl;
+    //cout<<"x:"<<x0<<endl;
+    //cout<<"y:"<<y0<<endl;
+    //cout<<"A:"<<A<<endl;
+    //cout<<"B:"<<b<<endl;
   }
   return x;
 }
@@ -250,43 +250,4 @@ SEXP Rcpp_m3NMF_fbs(mat dt,int k, double lamw,double lamh,string method = "direc
   }
   return List::create(_["W"] = W, _["H"] = H,_["loss"] = losses, _["iteration"] = iter);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
