@@ -1,0 +1,5 @@
+setwd ('E:/Project/Rcpptest')
+library(Rcpp)
+library(RcppArmadillo)
+library(RcppEigen)
+sourceCpp("spNMF.cpp")
