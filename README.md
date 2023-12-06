@@ -2,7 +2,7 @@
 
 $V = WH (W,H \in R_+)$
 
-$f(x) = \frac{1}{2}||V - WH||^2_2 + \lambda_w|W|_1 + \lambda_h |H|_1$
+$f(x) = \frac{1}{2}||V - WH||^2_F + \lambda_w|W|_1 + \lambda_h |H|_1$
 
 方法基于**ANSL + newton interior + fbs**，主打一个适用稀疏数据
 
