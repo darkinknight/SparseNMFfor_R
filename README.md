@@ -1,6 +1,6 @@
 # SparseNMFfor_R
 
-V = WH
+$V = WH (W,H \in R_+)$
 
  Rcpp_m2NMF_fbs ： 为牛顿内点法的二维矩阵存储形式
 
