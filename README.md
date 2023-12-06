@@ -10,6 +10,8 @@ $V = WH (W,H \in R_+)$
  
  输出model结构包括（W,H,loss）
 
+ 表现待证
+
 ```
 library(Rcpp)
 library(RcppArmadillo)
