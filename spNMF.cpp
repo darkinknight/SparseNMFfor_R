@@ -58,8 +58,8 @@ colvec innpot(mat A, colvec b, colvec x0, colvec y0, string method = "direct" , 
       u = solve (cgA,cgB );
       if (rcond(cgA)<1e-15){
         cout<<"rcond:"<<rcond(cgA)<<endl;
-        cout<<"cgA:"<<cgA<<endl;
-        cout<<"cgB:"<<cgB<<endl;
+        //cout<<"cgA:"<<cgA<<endl;
+        //cout<<"cgB:"<<cgB<<endl;
       }
     }
     else if (method == "cg"){
